@@ -118,22 +118,6 @@ class RegisterController extends Controller
             $user->agree_to_terms = $request->input('agree_to_terms');
 
             // Dating app fields
-            $user->date_of_birth = $request->input('date_of_birth');
-            $user->location = $request->input('location');
-            $user->relationship_goal = $request->input('relationship_goal');
-            $user->ideal_connection = $request->input('ideal_connection'); // now ID
-            $user->willing_to_relocate = $request->input('willing_to_relocate'); // now ID
-            $user->preferred_age_min = $request->input('preferred_age_min');
-            $user->preferred_age_max = $request->input('preferred_age_max');
-            $user->preferred_property_type = $request->input('preferred_property_type');
-            $user->identity = $request->input('identity');
-            $user->budget_min = $request->input('budget_min');
-            $user->budget_max = $request->input('budget_max');
-            $user->preferred_location = $request->input('preferred_location');
-            $user->perfect_weekend = $request->input('perfect_weekend');
-            $user->cant_live_without = $request->input('cant_live_without');
-            $user->quirky_fact = $request->input('quirky_fact');
-            $user->about_me = $request->input('about_me');
 
             $user->save();
 

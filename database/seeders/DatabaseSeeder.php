@@ -19,6 +19,7 @@ class DatabaseSeeder extends Seeder
             SystemSettingSeeder::class,
             SocialMediaSeeder::class,
             BlogSeeder::class,
+            DynamicPagesSeeder::class
         ]);
 
         User::factory()->create([

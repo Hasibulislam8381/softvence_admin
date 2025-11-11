@@ -60,5 +60,21 @@
          background: #fffefe;
          padding: 10px 14px;
      }
+
+     .form-check-input.status-toggle {
+         width: 45px;
+         height: 22px;
+         cursor: pointer;
+         transition: all 0.3s ease-in-out;
+     }
+
+     .page-link.active,
+     .active>.page-link {
+         background-color: #006666
+     }
+
+     .form-check-input.status-toggle:focus {
+         box-shadow: none;
+     }
  </style>
  {{-- dropify and ck-editor end --}}
