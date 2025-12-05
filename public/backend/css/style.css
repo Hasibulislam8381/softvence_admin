@@ -1,119 +1,4 @@
-/*! -----------------------------------------------------------------------------------
 
-    Template Name: Riho Admin
-    Template URI: https://admin.pixelstrap.net/riho/template/
-    Description: This is Admin theme
-    Author: Pixelstrap
-    Author URI: https://themeforest.net/user/pixelstrap
-
------------------------------------------------------------------------------------
-
-    1.Base css
-        1.1 Reset CSS
-        1.2 Typography CSS
-
-    2.Components css
-        2.1 According CSS
-        2.2 Alert CSS
-        2.3 Avatars CSS
-        2.4 Badge CSS
-        2.5 Bookmark CSS
-        2.6 Breadcrumb CSS
-        2.7 Basic-card CSS
-        2.8 Builders CSS
-        2.9 Buttons CSS
-        2.10 Card CSS
-        2.11 Color CSS
-        2.12 Datatable CSS
-        2.13 Datapicker CSS
-        2.14 Dropdown CSS
-        2.15 Form-builder CSS
-        2.16 Form-input CSS
-        2.17 Form-wizard CSS
-        2.18 Forms CSS
-        2.19 Icons CSS
-        2.20 List CSS
-        2.21 Loader CSS
-        2.22 Modal CSS
-        2.23 Popover CSS
-        2.24 Print CSS
-        2.25 Radio CSS
-        2.26 Ribbon CSS
-        2.27 Range-slider CSS
-        2.28 Switch CSS
-        2.29 Tab CSS
-        2.30 Table CSS
-        2.31 Toasts CSS
-        2.32 Touchspin CSS
-        2.33 Tour CSS
-        2.34 Tree CSS
-        2.35 Typeahead-search CSS
-        2.36 Scrollbar CSS
-
-    3. Pages
-        3.1 Blog CSS
-        3.2 Bookmark-app CSS
-        3.3 Cart CSS
-        3.4 Chart CSS
-        3.5 Chat CSS
-        3.6 Checkout CSS
-        3.7 Comingsoon CSS
-        3.8 Contacts CSS
-        3.9 Dashboard_2 CSS
-        3.10 Dashboard_3 CSS
-        3.11 Dashboard_4 CSS
-        3.12 Dashboard_5 CSS
-        3.13 Dashboard_default CSS
-        3.14 Ecommerce CSS
-        3.15 Email-application CSS
-        3.16 Errorpage CSS
-        3.17 Faq CSS
-        3.18 File CSS
-        3.19 Gallery CSS
-        3.20 Helper CSS
-        3.21 Internationalization CSS
-        3.22 Job-search CSS
-        3.23 Jsgrid CSS
-        3.24 Kanban CSS
-        3.25 Knowledgebase CSS
-        3.26 Landing CSS
-        3.27 Language CSS
-        3.28 Learning CSS
-        3.29 Login CSS
-        3.30 Megaoption CSS
-        3.31 Order-history CSS
-        3.32 Page CSS
-        3.33 Pricing CSS
-        3.34 Progress CSS
-        3.35 Projectlist CSS
-        3.36 Rating CSS
-        3.37 Social-app CSS
-        3.38 Sweet-alert CSS
-        3.39 Task CSS
-        3.40 Timeline-v CSS
-        3.41 User-profile CSS
-        3.42 Wishlist CSS
-        3.43 Dashboard_6.CSS
-        3.44 Dashboard_7 CSS
-        3.45 Dashboard_8.CSS
-
-    4. Themes
-        4.1. Dark CSS
-        4.2 Theme-customizer CSS
-        4.3 Update CSS
-
-    5. Layout
-        5.1 Footer CSS
-        5.2 Grid CSS
-        5.3 Header CSS
-        5.4 Navs CSS
-        5.5 Search CSS
-        5.6 Select2 CSS
-        5.7 Sidebar CSS
-        5.8 Rtl CSS
-        5.9 Box-layout CSS
-
- */
 :root {
     --theme-deafult: #006666;
     --theme-secondary: #FE6A49;
@@ -4003,7 +3888,7 @@ table tbody .border-bottom-warning td {
 body {
     font-size: 14px;
     overflow-x: hidden;
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
     color: #051A1A;
 }
 
@@ -7731,7 +7616,7 @@ button.button-primary:hover {
 }
 
 .page-body-wrapper .card .sub-title {
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
     font-weight: normal;
     color: #051A1A;
 }
@@ -8746,7 +8631,7 @@ table.dataTable.display tbody tr.even .badge {
 }
 
 .dropdown .dropdown-menu {
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
     z-index: 4;
 }
 
@@ -11793,14 +11678,14 @@ textarea {
 .icon-hover-bottom span,
 .icon-hover-bottom label,
 .icon-hover-bottom .btn {
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
 }
 
 .icon-hover-bottom .form-group input {
     display: inline-block;
     width: 300px;
     background-color: #fff;
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
 }
 
 .fa-fa-icon-show-div,
@@ -15848,7 +15733,7 @@ tbody tr:last-child {
 }
 
 .bootstrap-touchspin .input-group {
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
 }
 
 .bootstrap-touchspin .input-group .btn {
@@ -18566,7 +18451,7 @@ input[type=number] {
     color: #898989;
     background: #fff;
     border: solid 1px #ecf3fa;
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
     font-size: 12px;
     text-align: center;
 }
@@ -20319,7 +20204,7 @@ p.data-attributes svg {
 }
 
 .list-persons p {
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
 }
 
 .list-persons .profile-mail {
@@ -26237,7 +26122,7 @@ p.data-attributes svg {
 }
 
 .appointment-sec .bottom-btn a {
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
@@ -28471,7 +28356,7 @@ footer.blockquote-footer {
     margin-bottom: 0;
     margin-top: 5px;
     font-size: 20px;
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
 }
 
 .product-box .product-details h6 {
@@ -33570,7 +33455,7 @@ html:hover .cursor {
 
 .demo-section .demo-box.dashboard-images .demo-detail .demo-title h3 {
     font-size: 22px;
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
     font-weight: 400;
     margin-bottom: -7px;
@@ -33624,7 +33509,7 @@ html:hover .cursor {
     margin-bottom: 0px;
     font-weight: 700;
     font-size: 60px;
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     color: #fff;
     -webkit-background-clip: text;
@@ -34540,7 +34425,7 @@ html:hover .cursor {
 .landing-home .content p {
     font-size: calc(14px + 4 * (100vw - 300px) / 1620);
     font-weight: 500;
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
     color: #fff;
     opacity: 0.8;
     width: 64%;
@@ -35883,7 +35768,7 @@ footer .license-list h6 {
     font-weight: 600;
     margin-bottom: 0px;
     line-height: 1.4;
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
     width: 100%;
     color: #fff;
     margin-left: auto;
@@ -35966,12 +35851,12 @@ footer .license-list h6 {
 
 .pricing-section .landing-title h5 {
     font-weight: 700;
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
     color: #006666;
 }
 
 .pricing-section .landing-title h4 {
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
     font-weight: 600;
     margin: 10px 0px;
 }
@@ -41068,7 +40953,7 @@ html {
 .user-profile .follow .follow-num {
     font-size: 20px;
     color: #242934;
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
 
@@ -41112,7 +40997,7 @@ html {
 }
 
 .user-profile .like-comment span {
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
 }
 
 .user-profile .social-media a {
@@ -48558,7 +48443,7 @@ body[class*=dark-] .for-light {
     width: 100%;
     text-align: left;
     letter-spacing: 0.7px;
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
     border: 1px solid #efefef;
     border-radius: 0;
     border-top-left-radius: 5px;
@@ -50575,7 +50460,7 @@ table.table-bordered thead tr th p {
 }
 
 .page-wrapper .page-header .header-wrapper .nav-right .bookmark-flip .bookmark-dropdown .bookmark-content span {
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 0.5px;
@@ -50706,7 +50591,7 @@ table.table-bordered thead tr th p {
 
 .page-wrapper .page-header .header-wrapper .nav-right .onhover-show-div li a {
     letter-spacing: 0.3px;
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
 }
 
 .page-wrapper .page-header .header-wrapper .nav-right .onhover-show-div li+li {
@@ -50840,7 +50725,7 @@ table.table-bordered thead tr th p {
 .page-wrapper .page-header .header-wrapper .nav-right .cart-dropdown .qty-box .input-group input,
 .page-wrapper .page-header .header-wrapper .nav-right .cart-dropdown .qty-box .input-group .btn {
     font-size: 10px;
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
 
@@ -50861,7 +50746,7 @@ table.table-bordered thead tr th p {
 }
 
 .page-wrapper .page-header .header-wrapper .nav-right .cart-dropdown .total h6 {
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
@@ -51042,7 +50927,7 @@ table.table-bordered thead tr th p {
 .page-wrapper .page-body-wrapper .page-title .breadcrumb li {
     font-size: 13px;
     letter-spacing: 1px;
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
 }
 
 .page-wrapper .page-body-wrapper .page-title .breadcrumb .breadcrumb-item+.breadcrumb-item:before {
@@ -51354,7 +51239,7 @@ table.table-bordered thead tr th p {
     color: rgba(43, 43, 43, 0.6);
     letter-spacing: 0.06em;
     font-weight: 500;
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
@@ -51968,7 +51853,7 @@ table.table-bordered thead tr th p {
     font-size: 10px;
     letter-spacing: 0.7px;
     font-weight: 600;
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
     border-radius: 10px;
 }
 
@@ -52142,7 +52027,7 @@ table.table-bordered thead tr th p {
     display: block;
     letter-spacing: 0.06em;
     font-weight: 500;
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
     cursor: pointer;
 }
 
@@ -52173,7 +52058,7 @@ table.table-bordered thead tr th p {
     display: block;
     letter-spacing: 0.06em;
     font-weight: 500;
-    font-family: "Montserrat", sans-serif;
+   font-family: 'Poppins', sans-serif;
 }
 
 .page-wrapper.compact-wrapper .page-body-wrapper div.sidebar-wrapper .sidebar-main .sidebar-links .simplebar-wrapper .simplebar-mask .simplebar-content-wrapper .simplebar-content>li .mega-menu-container .mega-box .link-section .submenu-content.opensubmegamenu li a:after {

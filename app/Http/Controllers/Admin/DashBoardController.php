@@ -11,6 +11,6 @@ class DashBoardController extends Controller
     public function index()
     {
         $settings = SystemSetting::all();
-        return view('backend.pages.dashboard'); // blade file: resources/views/dashboard.blade.php
+        return view('backend.layouts.index'); 
     }
 }

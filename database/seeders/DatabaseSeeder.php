@@ -18,13 +18,8 @@ class DatabaseSeeder extends Seeder
         $this->call([
             SystemSettingSeeder::class,
             SocialMediaSeeder::class,
-            BlogSeeder::class,
-            DynamicPagesSeeder::class
-        ]);
-
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
+            DynamicPagesSeeder::class,
+            UserSeeder::class
         ]);
     }
 }

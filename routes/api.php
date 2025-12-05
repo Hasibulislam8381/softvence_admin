@@ -2,10 +2,9 @@
 
 use App\Http\Controllers\Api\Auth\LoginController;
 use App\Http\Controllers\Api\Auth\RegisterController;
-use App\Http\Controllers\API\AuthController;
-use App\Http\Controllers\API\BlogController;
-use App\Http\Controllers\API\SocialMediaController;
-use App\Http\Controllers\API\SystemSettingController;
+use App\Http\Controllers\Api\SocialAuthController;
+use App\Http\Controllers\Api\SocialMediaController;
+use App\Http\Controllers\Api\SystemSettingController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -13,8 +12,7 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // })->middleware('auth:sanctum');
 
-Route::post("register", [AuthController::class, 'register']);
-Route::post("login", [AuthController::class, 'login']);
+Route::post('/social-login', [SocialAuthController::class, 'socialLogin']);
 
 Route::controller(RegisterController::class)->prefix('users/register')->group(function () {
     // User Register
@@ -55,7 +53,5 @@ Route::middleware('auth:sanctum')->group(function () {
         Route::get('/social-links', 'index');
     });
 
-    Route::controller(BlogController::class)->group(function () {
-        Route::get('/blogs', 'index');
-    });
+
 });
