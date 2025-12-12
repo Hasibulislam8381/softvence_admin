@@ -2,9 +2,12 @@
 
 use App\Http\Controllers\Api\Auth\LoginController;
 use App\Http\Controllers\Api\Auth\RegisterController;
+use App\Http\Controllers\Api\ExpenseController;
+use App\Http\Controllers\Api\IncomeController;
 use App\Http\Controllers\Api\SocialAuthController;
 use App\Http\Controllers\Api\SocialMediaController;
 use App\Http\Controllers\Api\SystemSettingController;
+use App\Http\Controllers\Api\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -52,6 +55,18 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::controller(SocialMediaController::class)->group(function () {
         Route::get('/social-links', 'index');
     });
+    Route::controller(ExpenseController::class)->group(function () {
+        Route::get('/expenses', 'index');
+        Route::post('/upload', 'upload');
+        Route::get('/monthly-summary', 'monthlySummary');
+        Route::get('/monthly-summary-download', 'monthlyPdfDownload');
 
-
+    });
+    Route::controller(IncomeController::class)->group(function () {
+        Route::post('/set-income', 'setIncome');
+        Route::get('/income-history', 'incomeHistory');
+    });
+    Route::controller(UserController::class)->group(function () {
+        Route::get('/balance', 'balance');
+    });
 });
