@@ -76,9 +76,8 @@
                                         <div class="input-style-1">
                                             <label for="logo">Logo: <small class="text-muted">(Recommended:
                                                     115×36px)</small></label>
-                                            <input type="file" class="dropify @error('logo') is-invalid @enderror"
-                                                name="logo" id="logo"
-                                                data-default-file="@isset($setting){{ asset($setting->logo) }}@endisset" />
+                                            <input type="file" class="filepond" name="logo" id="logo"
+                                                accept="image/png, image/jpeg, image/gif" />
                                         </div>
                                         @error('logo')
                                             <span class="text-danger" role="alert">
@@ -91,11 +90,9 @@
                                     <div class="col-md-6 mt-4">
                                         <div class="input-style-1">
                                             <label for="favicon">Favicon:</label>
-                                            <input type="file" class="dropify @error('favicon') is-invalid @enderror"
-                                                name="favicon" id="favicon"
-                                                data-default-file="@isset($setting){{ asset($setting->favicon) }}@endisset" />
+                                            <input type="file" class="filepond" name="favicon" id="favicon"
+                                                accept="image/png, image/jpeg, image/x-icon" />
                                         </div>
-
                                         @error('favicon')
                                             <span class="text-danger" role="alert">
                                                 <strong>{{ $message }}</strong>

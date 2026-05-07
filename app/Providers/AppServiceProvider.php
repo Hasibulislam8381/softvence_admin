@@ -2,26 +2,26 @@
 
 namespace App\Providers;
 
+use App\Contracts\AuthServiceInterface;
+use App\Contracts\RegistrationOtpInterface;
+use App\Contracts\UserOtpInterface;
+use App\Services\OtpService;
 use App\Models\SystemSetting;
+use App\Services\AuthService;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
-    /**
-     * Register any application services.
-     */
     public function register(): void
     {
-        //
+        $this->app->bind(RegistrationOtpInterface::class, OtpService::class);
+        $this->app->bind(UserOtpInterface::class, OtpService::class);
+        $this->app->bind(AuthServiceInterface::class, AuthService::class);
     }
-
-    /**
-     * Bootstrap any application services.
-     */
     public function boot(): void
     {
         view()->composer('*', function ($view) {
-            $setting = SystemSetting::first(); // or where('id',1)->first()
+            $setting = SystemSetting::first();
             $view->with('setting', $setting);
         });
     }
